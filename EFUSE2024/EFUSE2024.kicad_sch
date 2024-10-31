@@ -5,34 +5,28 @@
 	(uuid "c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "Power_Management:TPS26631PWP"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
+			(property "Reference" "U"
+				(at -8.89 16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
+			(property "Value" "TPS26631PWP"
+				(at 7.62 16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
+			(property "Footprint" "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.96x2.96mm_ThermalVias"
+				(at 0 -31.75 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -40,7 +34,16 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2663.pdf"
+				(at -10.16 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "60V, 6A Power Limiting, Surge Protection Industrial eFuse, Adjustable Overvoltage cut-off, Active Current Limiting with Pulse current support, HTTSOP-20"
 				(at 0 0 0)
 				(effects
 					(font
@@ -49,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
+			(property "ki_keywords" "efuse protection switch"
 				(at 0 0 0)
 				(effects
 					(font
@@ -58,7 +61,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "cap capacitor"
+			(property "ki_fp_filters" "HTSSOP*1EP*4.4x6.5mm*P0.65mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -67,46 +70,24 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
+			(symbol "TPS26631PWP_0_1"
+				(rectangle
+					(start -10.16 15.24)
+					(end 10.16 -17.78)
 					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type background)
 					)
 				)
 			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
+			(symbol "TPS26631PWP_1_1"
+				(pin power_in line
+					(at -12.7 12.7 0)
+					(length 2.54)
+					(name "IN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -122,9 +103,189 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
+					(at 12.7 -15.24 180)
+					(length 2.54)
+					(name "dVdT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -12.7 180)
+					(length 2.54)
+					(name "ILIM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -15.24 0)
+					(length 2.54)
+					(name "MODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -12.7 0)
+					(length 2.54)
+					(name "~{SHDN}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "IMON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "~{FLT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "PGTH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "PGOOD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 12.7 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 12.7 180)
+					(length 2.54) hide
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 12.7 0)
+					(length 2.54) hide
+					(name "IN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -139,32 +300,183 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 12.7 12.7 180)
+					(length 2.54) hide
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 12.7 0)
+					(length 2.54) hide
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "B_GATE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "DRV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 17.78 270)
+					(length 2.54)
+					(name "IN_SYS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "UVLO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "OVP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -20.32 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 		)
-	)
-	(label "HOLA"
-		(at 109.22 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0d785a81-097c-497f-95a8-d3e6437e0bb1")
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 57.15 57.15 0)
+		(lib_id "Power_Management:TPS26631PWP")
+		(at 146.05 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f3d1e3dc-0815-47d5-9efd-bf6002070c4f")
-		(property "Reference" "C1"
-			(at 60.96 55.8799 0)
+		(uuid "2badec7f-6ee2-4f41-8d2c-4115bba213c9")
+		(property "Reference" "U1"
+			(at 148.2441 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -172,8 +484,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 60.96 58.4199 0)
+		(property "Value" "TPS26631PWP"
+			(at 148.2441 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -181,8 +493,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 58.1152 60.96 0)
+		(property "Footprint" "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.96x2.96mm_ThermalVias"
+			(at 146.05 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -190,8 +502,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 57.15 57.15 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2663.pdf"
+			(at 135.89 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -199,8 +511,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 57.15 57.15 0)
+		(property "Description" "60V, 6A Power Limiting, Surge Protection Industrial eFuse, Adjustable Overvoltage cut-off, Active Current Limiting with Pulse current support, HTTSOP-20"
+			(at 146.05 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -208,16 +520,454 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "f0bca7f8-f310-418e-aeb5-0d75d3328f32")
+		(pin "3"
+			(uuid "1435b236-778b-439b-bf94-9496e0933fe6")
 		)
 		(pin "1"
-			(uuid "d378c47d-3da1-4b61-8d93-6d899ffcdc6c")
+			(uuid "7b22203c-e435-4b11-bd9c-0390c558c435")
+		)
+		(pin "7"
+			(uuid "ab9e802d-e625-4313-aea3-b0bf827a53f8")
+		)
+		(pin "12"
+			(uuid "09eea785-a178-4a69-8389-2a9133fea53e")
+		)
+		(pin "11"
+			(uuid "7abf402f-dcf4-49b9-9002-89416b89cf21")
+		)
+		(pin "13"
+			(uuid "31a13372-6442-46a4-81fd-996b4547e61b")
+		)
+		(pin "17"
+			(uuid "d2e3613b-9833-4118-889b-c75e5109f69d")
+		)
+		(pin "16"
+			(uuid "a9fa31de-d1da-40f7-a440-5118ca64b650")
+		)
+		(pin "14"
+			(uuid "a90d0756-b54e-472b-ac72-540d511a6874")
+		)
+		(pin "18"
+			(uuid "3d69a461-b0a5-4100-af9e-254ae9327251")
+		)
+		(pin "19"
+			(uuid "e0790c9f-8233-424e-998c-4cbaadef5b91")
+		)
+		(pin "6"
+			(uuid "65f3de9c-7d24-453d-8c29-4b712d5aee4b")
+		)
+		(pin "10"
+			(uuid "a981d105-7668-4202-abaf-9fc08a7beabf")
+		)
+		(pin "8"
+			(uuid "fc012a61-ffdd-4bc6-8f62-683415e9de92")
+		)
+		(pin "21"
+			(uuid "83dc8278-23e4-4931-b20c-b523d9db7f68")
+		)
+		(pin "4"
+			(uuid "4b2d680d-5988-4987-ac54-259c4d733153")
+		)
+		(pin "9"
+			(uuid "db697d3a-12c4-43df-ab7f-b0ac58bd3fd0")
+		)
+		(pin "15"
+			(uuid "7e8f9dee-f1be-4746-accc-e399b6ee0fc0")
+		)
+		(pin "2"
+			(uuid "ad9aa917-dd06-481b-b48c-59cac565facf")
+		)
+		(pin "5"
+			(uuid "3b69d64c-85da-45aa-8a5b-9ef85350ea25")
+		)
+		(pin "20"
+			(uuid "9454941c-42f2-46f9-a66d-182fee60d25a")
 		)
 		(instances
 			(project ""
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "C1")
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Management:TPS26631PWP")
+		(at 146.05 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b038d4d-cfc3-4040-af99-c677a7a1981b")
+		(property "Reference" "U3"
+			(at 148.2441 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPS26631PWP"
+			(at 148.2441 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.96x2.96mm_ThermalVias"
+			(at 146.05 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2663.pdf"
+			(at 135.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V, 6A Power Limiting, Surge Protection Industrial eFuse, Adjustable Overvoltage cut-off, Active Current Limiting with Pulse current support, HTTSOP-20"
+			(at 146.05 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d54a1992-f7a7-404b-b8e7-5c423233e3fa")
+		)
+		(pin "1"
+			(uuid "8af063d2-8788-467d-976a-d5e186846370")
+		)
+		(pin "7"
+			(uuid "56f49af1-0435-4420-ab2e-182b6743436d")
+		)
+		(pin "12"
+			(uuid "15c03c45-f440-4c34-8bc3-d2e8f1c0a35f")
+		)
+		(pin "11"
+			(uuid "3cb079ca-219f-4ae2-bf45-e0a722ac69ee")
+		)
+		(pin "13"
+			(uuid "bf466ec7-e21a-4889-b4e6-04dd5ea71430")
+		)
+		(pin "17"
+			(uuid "79798cb1-c34c-4d42-acd2-27838b218d14")
+		)
+		(pin "16"
+			(uuid "eff4fdf6-8ade-446b-983b-910a07629163")
+		)
+		(pin "14"
+			(uuid "997f0425-5749-472b-aaa0-d9655040e392")
+		)
+		(pin "18"
+			(uuid "aa809149-17ef-4c55-acb6-7c14910d869d")
+		)
+		(pin "19"
+			(uuid "934f75e3-3489-4eef-a1c7-768c26b986df")
+		)
+		(pin "6"
+			(uuid "78164131-6387-48b2-962a-8753a9bfded6")
+		)
+		(pin "10"
+			(uuid "021d5131-778e-42cf-9cd0-9ab038a9386c")
+		)
+		(pin "8"
+			(uuid "5d6ce8ff-0b22-41d7-ac1e-409715892817")
+		)
+		(pin "21"
+			(uuid "384a75dd-75bf-4c1a-8d12-4e35126b5272")
+		)
+		(pin "4"
+			(uuid "055991b6-2a85-4963-8e4a-d66af6863bd1")
+		)
+		(pin "9"
+			(uuid "bcafcf78-53b5-4580-b590-c396a199d955")
+		)
+		(pin "15"
+			(uuid "122268bd-3b80-4efa-b134-f9bcc9e811bb")
+		)
+		(pin "2"
+			(uuid "c1e3d428-c755-4b27-8808-1338d8ca2098")
+		)
+		(pin "5"
+			(uuid "9de84c48-5a52-4b7b-be16-e7c07a92c184")
+		)
+		(pin "20"
+			(uuid "e8fdf47e-639c-42ed-a133-dd221581d463")
+		)
+		(instances
+			(project "EFUSE2024"
+				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Management:TPS26631PWP")
+		(at 146.05 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d93ea8ad-becd-4a0c-b2fb-a386da8d325a")
+		(property "Reference" "U2"
+			(at 148.2441 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPS26631PWP"
+			(at 148.2441 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.96x2.96mm_ThermalVias"
+			(at 146.05 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2663.pdf"
+			(at 135.89 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V, 6A Power Limiting, Surge Protection Industrial eFuse, Adjustable Overvoltage cut-off, Active Current Limiting with Pulse current support, HTTSOP-20"
+			(at 146.05 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "224c8341-ff1b-49bf-8a2d-ef9d6e23af65")
+		)
+		(pin "1"
+			(uuid "678966ea-f6fe-4af5-a31d-410c2386eb7b")
+		)
+		(pin "7"
+			(uuid "1e5cadac-3e6c-4aae-9560-5f1714f5c4f8")
+		)
+		(pin "12"
+			(uuid "51e055cd-59ff-46e0-8c08-c83a484a76f8")
+		)
+		(pin "11"
+			(uuid "375d8d62-c36f-42c0-87ad-a1ef5e53d656")
+		)
+		(pin "13"
+			(uuid "cefcfc2a-54bc-493f-b417-3d0ada70ecd4")
+		)
+		(pin "17"
+			(uuid "dbe3e608-f0bd-4c0f-a390-a1ccb31f8194")
+		)
+		(pin "16"
+			(uuid "dfd21259-353d-43d4-8605-191453e26ebe")
+		)
+		(pin "14"
+			(uuid "0ebddb9d-6cd5-41bc-8c33-c62a23864f0a")
+		)
+		(pin "18"
+			(uuid "6857c4ef-34e6-40b3-8950-926255ef7fdf")
+		)
+		(pin "19"
+			(uuid "e994623a-593f-4b5a-9e23-e8ee8a63a92c")
+		)
+		(pin "6"
+			(uuid "0ccd4c01-468d-4616-8861-a9b627e12eb2")
+		)
+		(pin "10"
+			(uuid "47801794-8a87-40ca-b32a-dcb4747a5fa6")
+		)
+		(pin "8"
+			(uuid "88f1aff3-d426-4254-b228-e6c42e93cf7e")
+		)
+		(pin "21"
+			(uuid "bfe96618-77a6-4fec-907b-51efd739e4ea")
+		)
+		(pin "4"
+			(uuid "34550786-4fbd-4b97-b264-c99aa4ae2c12")
+		)
+		(pin "9"
+			(uuid "c29959f2-af65-406d-be3c-169facf585fa")
+		)
+		(pin "15"
+			(uuid "e72a4fb6-823d-4854-ac50-f7085ce8a7e6")
+		)
+		(pin "2"
+			(uuid "c52a9694-63af-410c-a98c-8cc72c439e69")
+		)
+		(pin "5"
+			(uuid "bf50b697-bfe9-41a6-84ef-8880574b3ae5")
+		)
+		(pin "20"
+			(uuid "527642a2-1026-4af6-9a2d-3bb44f02c0e8")
+		)
+		(instances
+			(project "EFUSE2024"
+				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Management:TPS26631PWP")
+		(at 146.05 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e604be4b-1306-48c5-8ff3-7eaa6bd83069")
+		(property "Reference" "U4"
+			(at 148.2441 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPS26631PWP"
+			(at 148.2441 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.96x2.96mm_ThermalVias"
+			(at 146.05 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2663.pdf"
+			(at 135.89 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V, 6A Power Limiting, Surge Protection Industrial eFuse, Adjustable Overvoltage cut-off, Active Current Limiting with Pulse current support, HTTSOP-20"
+			(at 146.05 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "32a8670b-4717-4c67-a7af-06a75a56939a")
+		)
+		(pin "1"
+			(uuid "58c9d7ee-106c-477a-8b31-aa4d3dae3b16")
+		)
+		(pin "7"
+			(uuid "33b74858-247a-4169-88a1-0d598bbbc1c3")
+		)
+		(pin "12"
+			(uuid "ea021639-d811-471c-bb48-af605e5e725a")
+		)
+		(pin "11"
+			(uuid "059f827d-164c-4e4a-976f-c99c50d963d9")
+		)
+		(pin "13"
+			(uuid "888123b2-a064-457b-8ee2-d796b39753e1")
+		)
+		(pin "17"
+			(uuid "0f1ecc21-4971-4069-9941-89e0f7d5fe3f")
+		)
+		(pin "16"
+			(uuid "d92d16ba-79f5-4545-9189-ec84d1dc3b95")
+		)
+		(pin "14"
+			(uuid "71fc2777-59eb-4be6-a584-b074f31791df")
+		)
+		(pin "18"
+			(uuid "32cf4e79-d759-4ffe-824c-4da7ef1c0fd3")
+		)
+		(pin "19"
+			(uuid "4f6caac5-0f54-4ece-ae83-7bf2f8aa06fb")
+		)
+		(pin "6"
+			(uuid "36886a72-66cd-42d4-9d75-fa76b35e9772")
+		)
+		(pin "10"
+			(uuid "d007064f-dd48-4e65-b963-113d3edbeb2a")
+		)
+		(pin "8"
+			(uuid "306a1ae4-8934-40af-9f5b-db2f79cb42ca")
+		)
+		(pin "21"
+			(uuid "6eb4216f-f987-49ce-b1fd-f27621723874")
+		)
+		(pin "4"
+			(uuid "8955c3ce-ab17-4344-af71-7bea1e2f3446")
+		)
+		(pin "9"
+			(uuid "d9e534ec-11a4-4de9-a56e-501f3e643554")
+		)
+		(pin "15"
+			(uuid "93c7408a-0393-4325-a940-6468071ae53f")
+		)
+		(pin "2"
+			(uuid "fe1ed188-6396-48ca-8000-29bdda1ada34")
+		)
+		(pin "5"
+			(uuid "85fbfd35-8e36-4140-8ad0-70c05cd97b2f")
+		)
+		(pin "20"
+			(uuid "0df51294-420a-4f41-b78b-e451c89d613d")
+		)
+		(instances
+			(project "EFUSE2024"
+				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
+					(reference "U4")
 					(unit 1)
 				)
 			)
