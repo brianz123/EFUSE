@@ -5,6 +5,658 @@
 	(uuid "c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Amplifier_Audio:IR4302"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 20.955 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "IR4302"
+				(at -7.62 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:Infineon_PQFN-44-31-5EP_7x7mm_P0.5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/dgdl/ir4302.pdf?fileId=5546d462533600a4015355d602a9181d"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "PowIRaudio 2 Channel Integrated Analog Input Class D Audio Amplifier, 130W/4ohm, 80V, PQFN-44"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "integrated class d amplifier 2ch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Infineon*PQFN*5EP*7x7mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IR4302_0_1"
+				(rectangle
+					(start -7.62 -15.24)
+					(end 7.62 17.78)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "IR4302_1_1"
+				(pin open_collector line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "CLIP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "COMP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "CSD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "FAULT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 -5.08 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "CSH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "VB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "VS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 20.32 270)
+					(length 2.54)
+					(name "VP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54) hide
+					(name "VS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -17.78 90)
+					(length 2.54)
+					(name "VN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 90)
+					(length 2.54) hide
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 -7.62 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 -10.16 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 90)
+					(length 2.54) hide
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -12.7 0)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 15.24 0)
+					(length 2.54)
+					(name "VAA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 12.7 0)
+					(length 2.54)
+					(name "IN+1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "IN-1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "IR4302_2_1"
+				(pin output line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "COMP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -17.78 90)
+					(length 2.54)
+					(name "VN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "VS2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 20.32 270)
+					(length 2.54)
+					(name "VP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54) hide
+					(name "VS2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "VB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "CSH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "IN-2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 12.7 0)
+					(length 2.54)
+					(name "IN+2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -152,6 +804,322 @@
 			(justify left bottom)
 		)
 		(uuid "0d785a81-097c-497f-95a8-d3e6437e0bb1")
+	)
+	(symbol
+		(lib_id "Amplifier_Audio:IR4302")
+		(at 184.15 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c82a186-45f0-4464-87dc-8e20b69eb5e1")
+		(property "Reference" "U1"
+			(at 191.4241 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IR4302"
+			(at 191.4241 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:Infineon_PQFN-44-31-5EP_7x7mm_P0.5mm"
+			(at 184.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/ir4302.pdf?fileId=5546d462533600a4015355d602a9181d"
+			(at 184.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PowIRaudio 2 Channel Integrated Analog Input Class D Audio Amplifier, 130W/4ohm, 80V, PQFN-44"
+			(at 184.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "31"
+			(uuid "ab1b9565-c298-4158-90ea-8d06b5aa59d4")
+		)
+		(pin "14"
+			(uuid "e462d337-19a6-4d2e-b38d-0d838e41ec71")
+		)
+		(pin "28"
+			(uuid "28d41699-f736-4560-adaa-161c9a5eab48")
+		)
+		(pin "22"
+			(uuid "6cd281a7-1e7b-44c8-99e7-b1aefd7d8737")
+		)
+		(pin "4"
+			(uuid "3fc45fcf-9b9b-41ab-a9e9-ff431b2d9326")
+		)
+		(pin "10"
+			(uuid "fce8c8bf-b428-42b2-b575-1b6efae58790")
+		)
+		(pin "24"
+			(uuid "8e77debf-9ded-4166-b301-ddcc16889dab")
+		)
+		(pin "5"
+			(uuid "1333beb7-26ef-4d44-9f9b-79f8861783e4")
+		)
+		(pin "21"
+			(uuid "e96ec5ea-5b6a-46a9-8333-9df555d5b404")
+		)
+		(pin "20"
+			(uuid "ad9e9003-ab2e-4550-9a7a-6bb393c9b8c7")
+		)
+		(pin "6"
+			(uuid "030b74c6-2237-4a83-92f7-6872cf188068")
+		)
+		(pin "26"
+			(uuid "0a04df4d-1167-4c24-bce9-de78f27fda28")
+		)
+		(pin "7"
+			(uuid "dce9f396-9fa2-4e80-8b24-1dca49052408")
+		)
+		(pin "3"
+			(uuid "5084aedb-45a5-4a0f-84bb-3be88b175884")
+		)
+		(pin "18"
+			(uuid "d01e6699-b45e-471b-b93d-c5467fdd58f9")
+		)
+		(pin "17"
+			(uuid "0f4fd597-1dcc-45b5-9cc8-8b972e0400a6")
+		)
+		(pin "11"
+			(uuid "70e472b8-08df-41c1-a407-a7b2f7227244")
+		)
+		(pin "19"
+			(uuid "9622488d-e0fe-4cb5-944d-527d36063b48")
+		)
+		(pin "1"
+			(uuid "a2b4f1d2-25c0-4250-8199-20254b1ab9ce")
+		)
+		(pin "12"
+			(uuid "975d2823-6be7-4562-9785-f60d047dbbd2")
+		)
+		(pin "8"
+			(uuid "bb38ecae-119f-4226-8b05-8cc2968dcf13")
+		)
+		(pin "9"
+			(uuid "6273fa72-66ec-42ae-bdcc-53f652b2b52c")
+		)
+		(pin "27"
+			(uuid "65233c19-6b96-4db9-8ac7-36904ffaf0d4")
+		)
+		(pin "29"
+			(uuid "f8366edf-906b-430d-9ff4-6fe62beca18a")
+		)
+		(pin "2"
+			(uuid "7fde6edb-971a-4fe1-8f91-757f4b46b102")
+		)
+		(pin "25"
+			(uuid "9ff6e46c-b9b7-44bc-820e-4cc7b7b4e97a")
+		)
+		(pin "15"
+			(uuid "4e41c97b-833b-4455-87a6-633032c22870")
+		)
+		(pin "16"
+			(uuid "46af7cfe-5a5e-49cb-b081-e432915ecc6b")
+		)
+		(pin "30"
+			(uuid "ee5f1fa0-6a64-46e6-8568-272ae52327e9")
+		)
+		(pin "23"
+			(uuid "fcffbc3e-354c-4d9d-b6d5-56fec84b96c9")
+		)
+		(pin "13"
+			(uuid "e38bc7eb-52d7-4e0e-ad2a-6e6fd4eae321")
+		)
+		(instances
+			(project ""
+				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Audio:IR4302")
+		(at 231.14 78.74 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3917cf4-3487-42f0-b8c7-d01ca1d81967")
+		(property "Reference" "U1"
+			(at 238.4141 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IR4302"
+			(at 238.4141 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:Infineon_PQFN-44-31-5EP_7x7mm_P0.5mm"
+			(at 231.14 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/ir4302.pdf?fileId=5546d462533600a4015355d602a9181d"
+			(at 231.14 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PowIRaudio 2 Channel Integrated Analog Input Class D Audio Amplifier, 130W/4ohm, 80V, PQFN-44"
+			(at 231.14 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "31"
+			(uuid "ab1b9565-c298-4158-90ea-8d06b5aa59d4")
+		)
+		(pin "14"
+			(uuid "e462d337-19a6-4d2e-b38d-0d838e41ec71")
+		)
+		(pin "28"
+			(uuid "28d41699-f736-4560-adaa-161c9a5eab48")
+		)
+		(pin "22"
+			(uuid "6cd281a7-1e7b-44c8-99e7-b1aefd7d8737")
+		)
+		(pin "4"
+			(uuid "3fc45fcf-9b9b-41ab-a9e9-ff431b2d9326")
+		)
+		(pin "10"
+			(uuid "fce8c8bf-b428-42b2-b575-1b6efae58790")
+		)
+		(pin "24"
+			(uuid "8e77debf-9ded-4166-b301-ddcc16889dab")
+		)
+		(pin "5"
+			(uuid "1333beb7-26ef-4d44-9f9b-79f8861783e4")
+		)
+		(pin "21"
+			(uuid "e96ec5ea-5b6a-46a9-8333-9df555d5b404")
+		)
+		(pin "20"
+			(uuid "ad9e9003-ab2e-4550-9a7a-6bb393c9b8c7")
+		)
+		(pin "6"
+			(uuid "030b74c6-2237-4a83-92f7-6872cf188068")
+		)
+		(pin "26"
+			(uuid "0a04df4d-1167-4c24-bce9-de78f27fda28")
+		)
+		(pin "7"
+			(uuid "dce9f396-9fa2-4e80-8b24-1dca49052408")
+		)
+		(pin "3"
+			(uuid "5084aedb-45a5-4a0f-84bb-3be88b175884")
+		)
+		(pin "18"
+			(uuid "d01e6699-b45e-471b-b93d-c5467fdd58f9")
+		)
+		(pin "17"
+			(uuid "0f4fd597-1dcc-45b5-9cc8-8b972e0400a6")
+		)
+		(pin "11"
+			(uuid "70e472b8-08df-41c1-a407-a7b2f7227244")
+		)
+		(pin "19"
+			(uuid "9622488d-e0fe-4cb5-944d-527d36063b48")
+		)
+		(pin "1"
+			(uuid "a2b4f1d2-25c0-4250-8199-20254b1ab9ce")
+		)
+		(pin "12"
+			(uuid "975d2823-6be7-4562-9785-f60d047dbbd2")
+		)
+		(pin "8"
+			(uuid "bb38ecae-119f-4226-8b05-8cc2968dcf13")
+		)
+		(pin "9"
+			(uuid "6273fa72-66ec-42ae-bdcc-53f652b2b52c")
+		)
+		(pin "27"
+			(uuid "65233c19-6b96-4db9-8ac7-36904ffaf0d4")
+		)
+		(pin "29"
+			(uuid "f8366edf-906b-430d-9ff4-6fe62beca18a")
+		)
+		(pin "2"
+			(uuid "7fde6edb-971a-4fe1-8f91-757f4b46b102")
+		)
+		(pin "25"
+			(uuid "9ff6e46c-b9b7-44bc-820e-4cc7b7b4e97a")
+		)
+		(pin "15"
+			(uuid "4e41c97b-833b-4455-87a6-633032c22870")
+		)
+		(pin "16"
+			(uuid "46af7cfe-5a5e-49cb-b081-e432915ecc6b")
+		)
+		(pin "30"
+			(uuid "ee5f1fa0-6a64-46e6-8568-272ae52327e9")
+		)
+		(pin "23"
+			(uuid "fcffbc3e-354c-4d9d-b6d5-56fec84b96c9")
+		)
+		(pin "13"
+			(uuid "e38bc7eb-52d7-4e0e-ad2a-6e6fd4eae321")
+		)
+		(instances
+			(project ""
+				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
