@@ -419,8 +419,7 @@
 				)
 			)
 		)
-<<<<<<< HEAD
-=======
+
 		(symbol "Power_Management:TPS26630RGE"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -952,7 +951,6 @@
 				)
 			)
 		)
->>>>>>> f8ff946922d413b9b799d42d2af4004122793aef
 		(symbol "TPS26631PWP_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3554,7 +3552,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
+
 			(xy 204.47 85.09) (xy 212.09 85.09)
 		)
 		(stroke
@@ -3565,8 +3563,7 @@
 	)
 	(wire
 		(pts
-=======
->>>>>>> f8ff946922d413b9b799d42d2af4004122793aef
+
 			(xy 245.11 101.6) (xy 212.09 101.6)
 		)
 		(stroke
