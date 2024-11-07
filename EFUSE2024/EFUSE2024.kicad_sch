@@ -419,6 +419,540 @@
 				)
 			)
 		)
+<<<<<<< HEAD
+=======
+		(symbol "Power_Management:TPS26630RGE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -8.89 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPS26630RGE"
+				(at 7.62 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:Texas_RGE0024H_VQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias"
+				(at 0 -31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2663.pdf"
+				(at -10.16 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "60V, 6A Power Limiting, Surge Protection Industrial eFuse, Adjustable Overvoltage cut-off, Active Current Limiting, VQFN-24"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "efuse protection switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Texas*RGE0024H*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS26630RGE_0_1"
+				(rectangle
+					(start -10.16 15.24)
+					(end 10.16 -17.78)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TPS26630RGE_1_1"
+				(pin power_in line
+					(at -12.7 12.7 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -12.7 180)
+					(length 2.54)
+					(name "ILIM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -15.24 0)
+					(length 2.54)
+					(name "MODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -12.7 0)
+					(length 2.54)
+					(name "~{SHDN}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "IMON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "~{FLT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "PGTH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "PGOOD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 12.7 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 12.7 180)
+					(length 2.54) hide
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -10.16 10.16 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 12.7 0)
+					(length 2.54) hide
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -10.16 5.08 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -10.16 0 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 10.16 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 5.08 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 2.54 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "B_GATE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "DRV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 17.78 270)
+					(length 2.54)
+					(name "IN_SYS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "UVLO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "OVP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -20.32 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -15.24 180)
+					(length 2.54)
+					(name "dVdT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+>>>>>>> f8ff946922d413b9b799d42d2af4004122793aef
 		(symbol "TPS26631PWP_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2065,12 +2599,6 @@
 		)
 	)
 	(junction
-		(at 212.09 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0430b529-4fe7-439d-96d5-ea2a708724e6")
-	)
-	(junction
 		(at 156.21 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2147,12 +2675,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75bd65a6-a12d-4855-827d-652434983781")
-	)
-	(junction
-		(at 186.69 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76144d4d-9065-4e94-8680-115ff4d35f58")
 	)
 	(junction
 		(at 156.21 50.8)
@@ -2359,16 +2881,6 @@
 			(type default)
 		)
 		(uuid "1ac45680-9d35-4954-9de6-d745187a36d4")
-	)
-	(wire
-		(pts
-			(xy 186.69 85.09) (xy 194.31 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d46e873-0c8a-4eb4-a96e-90ed9fa319c0")
 	)
 	(wire
 		(pts
@@ -3042,6 +3554,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 204.47 85.09) (xy 212.09 85.09)
 		)
 		(stroke
@@ -3052,6 +3565,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> f8ff946922d413b9b799d42d2af4004122793aef
 			(xy 245.11 101.6) (xy 212.09 101.6)
 		)
 		(stroke
@@ -3254,6 +3769,145 @@
 			(project "EFUSE2024"
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Management:TPS26630RGE")
+		(at 146.05 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07bcacc2-b2d1-4fd2-bccb-ccdcff27357e")
+		(property "Reference" "U7"
+			(at 148.2441 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPS26630RGE"
+			(at 148.2441 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:Texas_RGE0024H_VQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias"
+			(at 146.05 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2663.pdf"
+			(at 135.89 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V, 6A Power Limiting, Surge Protection Industrial eFuse, Adjustable Overvoltage cut-off, Active Current Limiting, VQFN-24"
+			(at 146.05 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ae2806a5-0ea9-4714-9293-0ee1086856d5")
+		)
+		(pin "7"
+			(uuid "48ecfcdd-b992-4493-9a77-0089a7f6f270")
+		)
+		(pin "23"
+			(uuid "85d70315-aaf4-40ec-b19f-1a612de5b475")
+		)
+		(pin "13"
+			(uuid "9d2c5c2b-410d-4e0c-a9a1-ffca289806d3")
+		)
+		(pin "17"
+			(uuid "50b34cde-b506-4a70-8ba5-683c1bc3413e")
+		)
+		(pin "21"
+			(uuid "2ecc8b62-588a-476c-b940-3ff0f25a860e")
+		)
+		(pin "8"
+			(uuid "f81327b8-8a17-4e10-bb05-e184b93f62ac")
+		)
+		(pin "22"
+			(uuid "8f0710cb-2d70-4686-a49b-906128305447")
+		)
+		(pin "20"
+			(uuid "ca171b91-dbe3-483b-b3f8-f8f9259d2c2d")
+		)
+		(pin "24"
+			(uuid "0785443b-b6ee-494a-8043-1a6989f629c7")
+		)
+		(pin "15"
+			(uuid "288d20c8-781b-4d23-88be-3ce7b5a27bae")
+		)
+		(pin "11"
+			(uuid "c34582a1-fe56-4109-b007-429aec1771cf")
+		)
+		(pin "9"
+			(uuid "7bc95dd8-c86c-42ca-80ff-97aa5d7ea2c9")
+		)
+		(pin "4"
+			(uuid "b432f167-cb0c-4282-9273-d0c9f9ae4f5e")
+		)
+		(pin "10"
+			(uuid "7a95a6fd-79a1-4e9e-ba8d-9698aa15dc01")
+		)
+		(pin "6"
+			(uuid "9d1752b8-cbef-4c42-9809-02b2a5573a72")
+		)
+		(pin "12"
+			(uuid "a417d9c5-3a79-43f0-875c-22747d6a3199")
+		)
+		(pin "16"
+			(uuid "a0c23d5b-cfed-4893-a7a4-7705ce17b1c9")
+		)
+		(pin "18"
+			(uuid "71571a88-eedc-497b-a16a-b20ad342e3e2")
+		)
+		(pin "19"
+			(uuid "f7437f6f-ceed-44e8-9155-d4ae5d580201")
+		)
+		(pin "5"
+			(uuid "2ed43f6b-c86d-4483-86f3-bac01b46f80c")
+		)
+		(pin "25"
+			(uuid "c2efaf44-443d-4e74-9aad-b084793a74d7")
+		)
+		(pin "1"
+			(uuid "7729d234-f5fe-45c8-a142-79d2c6731c48")
+		)
+		(pin "3"
+			(uuid "f51f22c6-421f-4be1-aaef-1a98d045fb76")
+		)
+		(pin "14"
+			(uuid "44cfdede-5d98-4ee9-87bb-3737acda6601")
+		)
+		(instances
+			(project ""
+				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -5310,86 +5964,6 @@
 			(project ""
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:CSD19532Q5B")
-		(at 199.39 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7747f9f-a4db-4e65-bbec-4870e4be69f1")
-		(property "Reference" "Q6"
-			(at 199.39 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CSD19532Q5B"
-			(at 199.39 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
-			(at 201.295 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/csd19532q5b"
-			(at 203.2 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "100A Id, 100V Vds, NexFET N-Channel Power MOSFET, 4.9mOhm Ron, 48nC Qg(typ), SON8 5x6mm"
-			(at 199.39 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "4110a372-5548-4af2-86f0-6c8d65ecb5ec")
-		)
-		(pin "5"
-			(uuid "ed752477-f611-4c23-bc84-706dd277a8a5")
-		)
-		(pin "3"
-			(uuid "04668557-3248-4ab7-a389-f24751df90cd")
-		)
-		(pin "2"
-			(uuid "9155146c-6658-41c0-9afe-1ee49dc52b1b")
-		)
-		(pin "1"
-			(uuid "f75d1fb9-7a11-4fcb-9e0e-422b7265e160")
-		)
-		(instances
-			(project "EFUSE2024"
-				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "Q6")
 					(unit 1)
 				)
 			)
