@@ -1,0 +1,230 @@
+(footprint "SMCJ36CA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.65 -4.3375 0)
+		(layer "F.SilkS")
+		(uuid "96d3a42a-f145-42c5-ac33-7996b9075b62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DIOM6859X262N"
+		(at 3.43 4.3375 0)
+		(layer "F.Fab")
+		(uuid "e97ad2d9-304c-4584-9f2e-c4f7883f2aee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69f62b6f-1d28-4364-bcdf-c05ecec89f57")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "378acc5e-79a6-406d-86b0-45b1eb0fc77a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "661dc649-87fb-4860-8d6f-f6d4c92c89be")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.4275 -2.9525)
+		(end -3.4275 -1.88)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "593d1ba2-7b11-46d5-89a6-0908766ae884")
+	)
+	(fp_line
+		(start -3.4275 2.9525)
+		(end -3.4275 1.88)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ae5a834-9a02-49fe-982c-7b638a4cad73")
+	)
+	(fp_line
+		(start -3.4275 2.9525)
+		(end 3.4275 2.9525)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f12dc75c-d40e-449a-ad19-24b5a073a17f")
+	)
+	(fp_line
+		(start 3.4275 -2.9525)
+		(end -3.4275 -2.9525)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c48f0bbc-8758-45c1-ae00-6d0c703d3f67")
+	)
+	(fp_line
+		(start 3.4275 -1.88)
+		(end 3.4275 -2.9525)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e8afc344-a558-4ea2-be43-0cc82714ec71")
+	)
+	(fp_line
+		(start 3.4275 2.9525)
+		(end 3.4275 1.88)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "441f9733-b4fd-4633-834d-c4aa6fc4149c")
+	)
+	(fp_line
+		(start -4.825 -3.2025)
+		(end -4.825 3.2025)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8fa486c0-1c9b-49a0-ba97-8a60335e3182")
+	)
+	(fp_line
+		(start -4.825 3.2025)
+		(end 4.825 3.2025)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f904fc6d-fe5a-4998-bb5a-1a41c937a3f0")
+	)
+	(fp_line
+		(start 4.825 -3.2025)
+		(end -4.825 -3.2025)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "418ac257-e68c-46cb-bb21-78b9a45d928f")
+	)
+	(fp_line
+		(start 4.825 3.2025)
+		(end 4.825 -3.2025)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "61dd9a1c-bd1c-42f5-95a2-e505f58bd32f")
+	)
+	(fp_line
+		(start -3.4275 -2.9525)
+		(end -3.4275 2.9525)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "09f5f0e4-d1ce-4957-b381-8ce2fbef466b")
+	)
+	(fp_line
+		(start -3.4275 2.9525)
+		(end 3.4275 2.9525)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cf8f142a-e5e0-4e01-adee-efcae34b418e")
+	)
+	(fp_line
+		(start 3.4275 -2.9525)
+		(end -3.4275 -2.9525)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ae981fa0-ed1e-46b3-8b47-3a1e3622c1fe")
+	)
+	(fp_line
+		(start 3.4275 2.9525)
+		(end 3.4275 -2.9525)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2567a30a-2525-486b-b34a-8120717cd50c")
+	)
+	(pad "1" smd rect
+		(at -3.43 0)
+		(size 2.29 3.12)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "7252a9e7-1fd6-4687-baba-778f972a5e6b")
+	)
+	(pad "2" smd rect
+		(at 3.43 0)
+		(size 2.29 3.12)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "a2c41007-8669-44f3-9ae0-3f629862eb5d")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/SMCJ36CA.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
