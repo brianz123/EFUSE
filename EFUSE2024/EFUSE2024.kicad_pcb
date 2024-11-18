@@ -426,7 +426,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "1edc90a1-582c-4d38-a31b-8a8875fb5aa6")
-		(at 107.3 40.7)
+		(at 101.8 40.7)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
@@ -1748,7 +1748,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "49cc5d56-6ca8-4bc6-94bb-b341e6a6b35f")
-		(at 126.5 41.7 90)
+		(at 124.5 43.5 90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "RILIM4"
@@ -2196,9 +2196,9 @@
 	(footprint "Footprints:TRANS_CSD19537Q3"
 		(layer "F.Cu")
 		(uuid "56e004b1-1f96-4706-b82e-c52cf808dacd")
-		(at 111.5 29.7 180)
+		(at 107.5 25 180)
 		(property "Reference" "Q1"
-			(at 0.54 -2.508 360)
+			(at 0.54 -2.508 0)
 			(layer "F.SilkS")
 			(uuid "894749d7-fc61-4937-b804-5d3a529724d4")
 			(effects
@@ -2209,7 +2209,7 @@
 			)
 		)
 		(property "Value" "CSD19537Q3"
-			(at 6.128 2.508 360)
+			(at 6.128 2.508 0)
 			(layer "F.Fab")
 			(uuid "b9d43080-0e2d-40f4-9d42-28b6029cbfc0")
 			(effects
@@ -2220,7 +2220,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:TRANS_CSD19537Q3"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7f980a57-4737-41a6-8c2f-0f31da769f5d")
@@ -2232,7 +2232,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0dea85ef-30c7-46b5-a87a-1a162656b5d2")
@@ -2244,7 +2244,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "899ca631-1bbb-4f07-8b05-9615c6943d61")
@@ -4021,9 +4021,9 @@
 	(footprint "Footprints:QFN50P400X400X100-25N"
 		(layer "F.Cu")
 		(uuid "a30666fd-84e8-41e7-917b-3e8482f84ad9")
-		(at 108.75 82.6575)
+		(at 116.9125 40.25)
 		(property "Reference" "U7"
-			(at 0.175 -3.635 0)
+			(at 0.175 -3.635 360)
 			(layer "F.SilkS")
 			(uuid "20c481cb-4ced-4d30-b3eb-6e206ade8717")
 			(effects
@@ -4034,7 +4034,7 @@
 			)
 		)
 		(property "Value" "TPS26630RGE"
-			(at 10.335 3.635 0)
+			(at 10.335 3.635 360)
 			(layer "F.Fab")
 			(uuid "1dfd64dd-4b42-4c6f-936c-e32ea38c7188")
 			(effects
@@ -4045,7 +4045,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:QFN50P400X400X100-25N"
-			(at 0 0 0)
+			(at 0 0 360)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a825de13-6bbe-4c2b-b59c-4e1068184b14")
@@ -4057,7 +4057,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2663.pdf"
-			(at 0 0 0)
+			(at 0 0 360)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "25b7e798-2a2f-4886-af53-82a49fa36331")
@@ -4069,7 +4069,7 @@
 			)
 		)
 		(property "Description" "60V, 6A Power Limiting, Surge Protection Industrial eFuse, Adjustable Overvoltage cut-off, Active Current Limiting, VQFN-24"
-			(at 0 0 0)
+			(at 0 0 360)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6adaac1a-9059-4712-bebe-627f6d1ad8b4")
@@ -5748,7 +5748,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b59f0bce-6d9d-4e1e-9861-dc2cf850d86e")
-		(at 139.2 41.4 -90)
+		(at 144.5 41.4 -90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "RILIM1"
@@ -5961,7 +5961,7 @@
 	(footprint "Footprints:QFN50P400X400X100-25N"
 		(layer "F.Cu")
 		(uuid "b74b1cce-de50-47f9-9660-05d31d4a5abe")
-		(at 118.81375 47.1)
+		(at 116.5 62.1)
 		(property "Reference" "U2"
 			(at 0.175 -3.635 0)
 			(layer "F.SilkS")
@@ -7475,7 +7475,7 @@
 	(footprint "Footprints:QFN50P400X400X100-25N"
 		(layer "F.Cu")
 		(uuid "beba2664-12f8-4547-8534-e894d2ee50f7")
-		(at 108.75 76.3475)
+		(at 116.0875 73.25)
 		(property "Reference" "U3"
 			(at 0.175 -3.635 0)
 			(layer "F.SilkS")
@@ -9202,11 +9202,11 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "c6b823dc-de7e-46c8-9cd4-9c51f05ed0bc")
-		(at 134.2 41.2 90)
+		(at 130.5 41.5 90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "RILIM2"
-			(at 0 -1.65 90)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(uuid "72f3551e-e5c4-41e8-9282-97a87a76b8ca")
 			(effects
@@ -9415,7 +9415,7 @@
 	(footprint "Footprints:QFN50P400X400X100-25N"
 		(layer "F.Cu")
 		(uuid "ce386a30-e06b-465b-aa8b-6fb9d482d567")
-		(at 118.9 36.8)
+		(at 116.6 52)
 		(property "Reference" "U1"
 			(at 0.175 -3.635 0)
 			(layer "F.SilkS")
@@ -11164,7 +11164,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "dcecca49-7e11-475f-8457-a465daebfe16")
-		(at 107.4 36.4)
+		(at 101.9 36.4)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
@@ -11377,7 +11377,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "dfefdbf0-349e-49f9-94fd-a0046a65dccb")
-		(at 107 44.6)
+		(at 101.5 44.6)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
@@ -12834,7 +12834,7 @@
 	(footprint "Footprints:BSS138"
 		(layer "F.Cu")
 		(uuid "f90e4442-eadb-4d42-b4ea-6ea7781cb6d0")
-		(at 105.46 31.35)
+		(at 107.06 34.55)
 		(property "Reference" "Q2"
 			(at 0.032 -2.4064 0)
 			(layer "F.SilkS")
