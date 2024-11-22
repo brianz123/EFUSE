@@ -1,4 +1,4 @@
-24194506276425701
+24196238523178272
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65267,6 +65267,13 @@ Yellow 5381 Series LED
 0
 2
 2
+Library
+Texas_RGE0024H_VQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias
+Texas RGE0024H VQFN, 24 Pin (http://www.ti.com/lit/ds/symlink/tlc5971.pdf#page=40), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas VQFN NoLead
+0
+35
+25
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
