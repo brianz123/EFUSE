@@ -4691,7 +4691,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05b075ed-3c2e-453a-845d-380870ececb4")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 27.686 26.924 0)
 			(effects
 				(font
@@ -4745,7 +4745,7 @@
 		(instances
 			(project ""
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4762,7 +4762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07bcacc2-b2d1-4fd2-bccb-ccdcff27357e")
-		(property "Reference" "U7"
+		(property "Reference" "U1"
 			(at 74.5841 16.51 0)
 			(effects
 				(font
@@ -4885,7 +4885,7 @@
 		(instances
 			(project ""
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "U7")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -4901,7 +4901,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c3b8b48-01a2-4895-990f-523d9f320c06")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 66.294 154.686 0)
 			(effects
 				(font
@@ -5024,7 +5024,7 @@
 		(instances
 			(project "EFUSE2024"
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -5179,7 +5179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27816a23-74b7-4617-9862-59519f55261f")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 154.94 145.0974 90)
 			(effects
 				(font
@@ -5233,7 +5233,7 @@
 		(instances
 			(project ""
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -5518,7 +5518,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46be7312-c13d-46f2-9932-5aa169bcba70")
-		(property "Reference" "C10"
+		(property "Reference" "C3"
 			(at 97.79 26.6699 0)
 			(effects
 				(font
@@ -5572,7 +5572,7 @@
 		(instances
 			(project "EFUSE2024"
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "C10")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5789,7 +5789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4feae111-139d-45fe-a80f-92f897ed6f77")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 154.94 98.1074 90)
 			(effects
 				(font
@@ -5843,7 +5843,7 @@
 		(instances
 			(project ""
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -6048,7 +6048,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d356a75-21c3-4e2a-a94b-58139563ce9d")
-		(property "Reference" "RILIM4"
+		(property "Reference" "RILIM1"
 			(at 87.376 54.61 0)
 			(effects
 				(font
@@ -6102,7 +6102,7 @@
 		(instances
 			(project "EFUSE2024"
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "RILIM4")
+					(reference "RILIM1")
 					(unit 1)
 				)
 			)
@@ -6186,7 +6186,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78a40d85-eecf-4994-8895-5a4c02664ad3")
-		(property "Reference" "C15"
+		(property "Reference" "C4"
 			(at 14.732 120.65 0)
 			(effects
 				(font
@@ -6240,7 +6240,7 @@
 		(instances
 			(project "EFUSE2024"
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "C15")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -6387,7 +6387,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c59b028-0667-4523-94d3-ea72b8578851")
-		(property "Reference" "RILIM1"
+		(property "Reference" "RILIM2"
 			(at 88.646 100.33 0)
 			(effects
 				(font
@@ -6441,7 +6441,7 @@
 		(instances
 			(project "EFUSE2024"
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "RILIM1")
+					(reference "RILIM2")
 					(unit 1)
 				)
 			)
@@ -6853,7 +6853,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ad2b605-c736-45d3-8594-55158a0a3f41")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 67.564 110.236 0)
 			(effects
 				(font
@@ -6976,7 +6976,7 @@
 		(instances
 			(project "EFUSE2024"
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -6992,7 +6992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3683e73-05fc-4f55-b851-1aec0ea6d3a6")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at 143.51 179.3874 90)
 			(effects
 				(font
@@ -7046,7 +7046,7 @@
 		(instances
 			(project "EFUSE2024"
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -7061,7 +7061,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4c68f1f-346b-438f-88b2-c3a96602029a")
-		(property "Reference" "RILIM2"
+		(property "Reference" "RILIM3"
 			(at 88.646 144.78 0)
 			(effects
 				(font
@@ -7115,7 +7115,7 @@
 		(instances
 			(project "EFUSE2024"
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "RILIM2")
+					(reference "RILIM3")
 					(unit 1)
 				)
 			)
@@ -7131,7 +7131,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa52b33f-84a9-4586-b61b-3858ddc2bf15")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 67.056 65.786 0)
 			(effects
 				(font
@@ -7254,7 +7254,7 @@
 		(instances
 			(project "EFUSE2024"
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -7269,7 +7269,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0c3aca4-3502-496d-8337-f71b5fae3f76")
-		(property "Reference" "R5"
+		(property "Reference" "R7"
 			(at 153.162 84.836 0)
 			(effects
 				(font
@@ -7323,7 +7323,7 @@
 		(instances
 			(project "EFUSE2024"
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7469,7 +7469,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4c7cf7a-8d1e-4162-9154-1cdc12d735a3")
-		(property "Reference" "RILIM3"
+		(property "Reference" "RILIM4"
 			(at 88.646 189.23 0)
 			(effects
 				(font
@@ -7523,7 +7523,7 @@
 		(instances
 			(project "EFUSE2024"
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "RILIM3")
+					(reference "RILIM4")
 					(unit 1)
 				)
 			)
@@ -7538,7 +7538,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9e76d31-13f9-4312-b532-f6209c65a88d")
-		(property "Reference" "C11"
+		(property "Reference" "C1"
 			(at 94.742 57.404 0)
 			(effects
 				(font
@@ -7592,7 +7592,7 @@
 		(instances
 			(project "EFUSE2024"
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "C11")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -7677,7 +7677,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9b0cd7d-ac1e-46f2-94f6-37761e6c62fe")
-		(property "Reference" "R7"
+		(property "Reference" "R5"
 			(at 141.732 163.576 0)
 			(effects
 				(font
@@ -7731,7 +7731,7 @@
 		(instances
 			(project "EFUSE2024"
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "R7")
+					(reference "R5")
 					(unit 1)
 				)
 			)

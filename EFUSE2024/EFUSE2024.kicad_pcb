@@ -42,7 +42,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
-			(layerselection 0x00010fc_ffffffff)
+			(layerselection 0x003d0fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -871,7 +871,7 @@
 		(at 129.5 114.0125 90)
 		(descr "LED SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at -1.9875 -3.5 180)
 			(layer "F.SilkS")
 			(uuid "536f6c20-a524-4f1f-baaa-8e8521e5a495")
@@ -1106,7 +1106,7 @@
 		(at 110 87.5 90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
-		(property "Reference" "RILIM4"
+		(property "Reference" "RILIM1"
 			(at 3.5 0.2 180)
 			(layer "F.SilkS")
 			(uuid "d92e874e-bc2b-4a1d-a0ec-ab7f9cff668b")
@@ -1319,7 +1319,7 @@
 		(at 129.5 94.9875 90)
 		(descr "LED SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 1.6875 -3 180)
 			(layer "F.SilkS")
 			(uuid "4a2cf9db-800c-4ab3-b57a-e46a5b86bb24")
@@ -2314,7 +2314,7 @@
 		(at 107.5 87.4625 -90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
-		(property "Reference" "C11"
+		(property "Reference" "C1"
 			(at -2.8625 1.3 180)
 			(layer "F.SilkS")
 			(uuid "d1d36ed6-3fe1-45ef-9e7e-ba5be96970e3")
@@ -2527,7 +2527,7 @@
 		(at 124.12 112.525)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
-		(property "Reference" "R7"
+		(property "Reference" "R5"
 			(at -0.12 -1.525 0)
 			(layer "F.SilkS")
 			(uuid "1e8b0327-993b-4f5e-b00e-8057d7f7894b")
@@ -2740,7 +2740,7 @@
 		(at 102.8 99.6 180)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
-		(property "Reference" "C15"
+		(property "Reference" "C4"
 			(at 0 -1.68 0)
 			(layer "F.SilkS")
 			(uuid "7d9f9b08-fb95-43ca-b01c-3cbf06f8a9c8")
@@ -2953,7 +2953,7 @@
 		(at 94.3375 78.8)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 0 -1.68 0)
 			(layer "F.SilkS")
 			(uuid "58030f0e-97f7-4aeb-b2a2-42bac5a93ae4")
@@ -3164,7 +3164,7 @@
 		(layer "F.Cu")
 		(uuid "a30666fd-84e8-41e7-917b-3e8482f84ad9")
 		(at 109 80.5)
-		(property "Reference" "U7"
+		(property "Reference" "U1"
 			(at 0.175 -3.635 0)
 			(layer "F.SilkS")
 			(uuid "6d191cd2-c487-4ef1-8ecd-a2ec19a17ebf")
@@ -4695,7 +4695,7 @@
 		(at 118.5 116.3 -90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
-		(property "Reference" "RILIM3"
+		(property "Reference" "RILIM4"
 			(at -0.3 -3.5 180)
 			(layer "F.SilkS")
 			(uuid "d2319be9-4079-468f-947f-6c85f99d04f6")
@@ -4908,7 +4908,7 @@
 		(at 110.4 99 90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
-		(property "Reference" "RILIM1"
+		(property "Reference" "RILIM2"
 			(at 0 3.8 180)
 			(layer "F.SilkS")
 			(uuid "04354b5e-5156-4089-a1dd-ca1bc0920028")
@@ -5119,7 +5119,7 @@
 		(layer "F.Cu")
 		(uuid "b74b1cce-de50-47f9-9660-05d31d4a5abe")
 		(at 108.5875 103.7625)
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at -0.0875 -3.5625 0)
 			(layer "F.SilkS")
 			(uuid "39972704-e680-4e77-bc26-5beddfa9ceeb")
@@ -6648,7 +6648,7 @@
 		(layer "F.Cu")
 		(uuid "beba2664-12f8-4547-8534-e894d2ee50f7")
 		(at 108.5875 114.25)
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at -0.5875 -3.75 0)
 			(layer "F.SilkS")
 			(uuid "5c90b3e2-31ce-4ccc-b762-98f5a45f168c")
@@ -8179,7 +8179,7 @@
 		(at 110.2 109.4 90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
-		(property "Reference" "RILIM2"
+		(property "Reference" "RILIM3"
 			(at 0 3.6 180)
 			(layer "F.SilkS")
 			(uuid "72f3551e-e5c4-41e8-9282-97a87a76b8ca")
@@ -8390,7 +8390,7 @@
 		(layer "F.Cu")
 		(uuid "ce386a30-e06b-465b-aa8b-6fb9d482d567")
 		(at 108.6875 93.15)
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 0.1125 -3.15 0)
 			(layer "F.SilkS")
 			(uuid "726b6a57-bea9-4c4d-829d-73bbf5b14d04")
@@ -9921,7 +9921,7 @@
 		(at 129.5 105 90)
 		(descr "LED SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at -0.1 -3.1 180)
 			(layer "F.SilkS")
 			(uuid "809b9de7-9ffa-4dcb-8a87-3fe0b3a9ac80")
@@ -11187,7 +11187,7 @@
 		(at 115.6 81.8)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
-		(property "Reference" "C10"
+		(property "Reference" "C3"
 			(at 0 -1.68 0)
 			(layer "F.SilkS")
 			(uuid "b268753b-e279-43e6-974a-a76b9a06b952")
@@ -11400,7 +11400,7 @@
 		(at 124 96)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
-		(property "Reference" "R5"
+		(property "Reference" "R7"
 			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(uuid "16df0a4f-2a23-44f0-826c-744bc5e8d05e")
@@ -17175,47 +17175,6 @@
 		)
 	)
 	(zone
-		(net 53)
-		(net_name "Net-(U3-PGOOD)")
-		(layer "F.Cu")
-		(uuid "33d88da6-4ea6-4162-96fa-588339a644bc")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30045)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 123.208388 112.613388) (xy 123.031612 112.436612) (xy 122.895671 112.35903) (xy 122.799293 112.590707)
-				(xy 122.895671 112.82097)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 122.905877 112.364958) (xy 122.907177 112.365596) (xy 123.030249 112.435834) (xy 123.032723 112.437723)
-				(xy 123.198275 112.603275) (xy 123.201702 112.611548) (xy 123.198275 112.619821) (xy 123.196473 112.621296)
-				(xy 122.907467 112.813139) (xy 122.898679 112.814859) (xy 122.891248 112.809862) (xy 122.890206 112.807915)
-				(xy 122.808016 112.611548) (xy 122.801178 112.59521) (xy 122.801145 112.586256) (xy 122.801168 112.586199)
-				(xy 122.89058 112.371266) (xy 122.896922 112.364945)
-			)
-		)
-	)
-	(zone
 		(net 51)
 		(net_name "Net-(U1-B_GATE)")
 		(layer "F.Cu")
@@ -17290,45 +17249,6 @@
 				(xy 95.19676 79.894277) (xy 95.2 79.902359) (xy 95.2 80.11172) (xy 95.196573 80.119993) (xy 95.1883 80.12342)
 				(xy 95.186826 80.123327) (xy 94.993402 80.098765) (xy 94.985627 80.094323) (xy 94.983269 80.085684)
 				(xy 94.986792 80.0787) (xy 95.180219 79.893898) (xy 95.188567 79.890662)
-			)
-		)
-	)
-	(zone
-		(net 6)
-		(net_name "Net-(U1-OVP)")
-		(layer "F.Cu")
-		(uuid "4d6c8a75-b5a9-48eb-b657-47c6b9cd3897")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30008)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 101.171968 86.375) (xy 101.171968 86.625) (xy 101.63 86.62) (xy 101.631 86.37) (xy 101.534329 86.13903)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 101.538758 86.150107) (xy 101.539747 86.151975) (xy 101.630083 86.36781) (xy 101.63099 86.372374)
-				(xy 101.630046 86.608473) (xy 101.626586 86.616732) (xy 101.618474 86.620125) (xy 101.183796 86.62487)
-				(xy 101.175486 86.621534) (xy 101.171969 86.613299) (xy 101.171968 86.613171) (xy 101.171968 86.381342)
-				(xy 101.175395 86.373069) (xy 101.177277 86.371542) (xy 101.522569 86.146687) (xy 101.531372 86.145045)
 			)
 		)
 	)
@@ -17567,84 +17487,6 @@
 				(xy 106.701462 80.370614) (xy 106.236794 80.234618) (xy 106.229816 80.229005) (xy 106.228851 80.220103)
 				(xy 106.229248 80.218968) (xy 106.318102 80.002188) (xy 106.320678 79.998331) (xy 106.487099 79.832845)
 				(xy 106.495382 79.829442)
-			)
-		)
-	)
-	(zone
-		(net 5)
-		(net_name "Net-(U1-UVLO)")
-		(layer "F.Cu")
-		(uuid "75d030fa-d9ea-4d10-bfca-ec9c21bcb58e")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30001)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 96.015768 86.375) (xy 96.015768 86.625) (xy 96.414329 86.75997) (xy 96.511 86.529) (xy 96.51 86.279)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 96.5049 86.28348) (xy 96.509841 86.290948) (xy 96.510056 86.293132) (xy 96.51099 86.526625)
-				(xy 96.510083 86.531189) (xy 96.418541 86.749905) (xy 96.412185 86.756214) (xy 96.403995 86.75647)
-				(xy 96.023715 86.627691) (xy 96.016978 86.621791) (xy 96.015768 86.616609) (xy 96.015768 86.384645)
-				(xy 96.019195 86.376372) (xy 96.025234 86.373161) (xy 96.496127 86.281694)
-			)
-		)
-	)
-	(zone
-		(net 5)
-		(net_name "Net-(U1-UVLO)")
-		(layer "F.Cu")
-		(uuid "79ce7e46-3200-4971-9dea-562faa1a6b1f")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30000)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 97.004232 86.625) (xy 97.004232 86.375) (xy 96.51 86.279) (xy 96.509 86.529) (xy 96.605671 86.75997)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 96.523864 86.281693) (xy 96.994764 86.373161) (xy 97.002231 86.378101) (xy 97.004232 86.384645)
-				(xy 97.004232 86.616609) (xy 97.000805 86.624882) (xy 96.996285 86.627691) (xy 96.616004 86.75647)
-				(xy 96.607069 86.755878) (xy 96.601458 86.749905) (xy 96.509916 86.531189) (xy 96.509009 86.526627)
-				(xy 96.509943 86.29313) (xy 96.513403 86.284873) (xy 96.52169 86.281479)
 			)
 		)
 	)
@@ -17990,46 +17832,6 @@
 				(xy 106.891266 84.727289) (xy 106.505504 84.828392) (xy 106.496633 84.827174) (xy 106.491745 84.821591)
 				(xy 106.400889 84.604515) (xy 106.400857 84.595563) (xy 106.491746 84.378406) (xy 106.498101 84.372099)
 				(xy 106.505504 84.371607)
-			)
-		)
-	)
-	(zone
-		(net 20)
-		(net_name "Net-(U1-~{SHDN})")
-		(layer "F.Cu")
-		(uuid "8b8be066-bc55-4406-8a3c-6d3522f2f3f4")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30009)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 109.934835 105.758058) (xy 109.758058 105.934835) (xy 109.96903 106.295671) (xy 110.200707 106.200707)
-				(xy 110.295671 105.96903)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 109.942625 105.762613) (xy 110.286894 105.963898) (xy 110.292307 105.971032) (xy 110.291815 105.978435)
-				(xy 110.202564 106.196175) (xy 110.196255 106.202531) (xy 110.196175 106.202564) (xy 109.978435 106.291815)
-				(xy 109.969481 106.291782) (xy 109.963898 106.286894) (xy 109.762613 105.942626) (xy 109.761396 105.933758)
-				(xy 109.764439 105.928453) (xy 109.928452 105.76444) (xy 109.936724 105.761014)
 			)
 		)
 	)
@@ -19386,45 +19188,6 @@
 		)
 	)
 	(zone
-		(net 52)
-		(net_name "Net-(U2-PGOOD)")
-		(layer "F.Cu")
-		(uuid "fae42c2c-5096-486f-a148-703f228dec7d")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30038)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 110.76032 103.3875) (xy 110.76032 103.6375) (xy 111.21 103.62) (xy 111.211 103.37) (xy 111.033223 103.193223)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 111.040219 103.20018) (xy 111.20753 103.366549) (xy 111.21098 103.374812) (xy 111.21098 103.374892)
-				(xy 111.210044 103.608791) (xy 111.206584 103.61705) (xy 111.198799 103.620435) (xy 110.772475 103.637026)
-				(xy 110.764075 103.633924) (xy 110.760329 103.62579) (xy 110.76032 103.625335) (xy 110.76032 103.393532)
-				(xy 110.763747 103.385259) (xy 110.765235 103.384001) (xy 111.025185 103.198944) (xy 111.033911 103.196938)
-			)
-		)
-	)
-	(zone
 		(net 50)
 		(net_name "Net-(U1-DRV)")
 		(layer "F.Cu")
@@ -20370,7 +20133,7 @@
 				(xy 94.876754 82.851265) (xy 94.896683 82.925643) (xy 94.939531 82.999857) (xy 94.939532 82.999858)
 				(xy 94.939533 82.999859) (xy 94.939535 82.999862) (xy 95.913411 83.973738) (xy 96.739534 84.799861)
 				(xy 96.739535 84.799862) (xy 96.739534 84.799862) (xy 96.800135 84.860462) (xy 96.800138 84.860465)
-				(xy 96.874362 84.903318) (xy 96.957147 84.9255) (xy 97.414165 84.9255) (xy 97.472356 84.944407)
+				(xy 96.874362 84.903318) (xy 96.957147 84.9255) (xy 97.042853 84.9255) (xy 97.414165 84.9255) (xy 97.472356 84.944407)
 				(xy 97.50832 84.993907) (xy 97.50832 85.055093) (xy 97.484168 85.094504) (xy 96.674623 85.904047)
 				(xy 96.654589 85.919507) (xy 96.319377 86.115497) (xy 96.316106 86.117782) (xy 96.316073 86.117735)
 				(xy 96.311708 86.120921) (xy 96.211952 86.185032) (xy 96.211951 86.185032) (xy 96.211951 86.185033)
