@@ -1652,6 +1652,151 @@
 				)
 			)
 		)
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start 1.524 0.254)
+					(mid 0 0.762)
+					(end -1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SMCJ36CA:SMCJ36CA"
 			(pin_names
 				(offset 1.016)
@@ -2609,6 +2754,12 @@
 		(uuid "187e1523-cd4c-4d60-aef6-55486d83a83b")
 	)
 	(junction
+		(at 48.26 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "189ef6ff-7a72-4939-a588-96f40b0a8c7f")
+	)
+	(junction
 		(at 25.4 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2679,12 +2830,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "398607ec-4fee-4446-b023-7682eebc461f")
-	)
-	(junction
-		(at 57.15 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "39c1cbd9-9375-42b8-9ca0-caaab117f511")
 	)
 	(junction
 		(at 72.39 105.41)
@@ -2896,7 +3041,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 59.69) (xy 57.15 59.69)
+			(xy 34.29 59.69) (xy 48.26 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3016,13 +3161,13 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 97.79) (xy 55.88 105.41)
+			(xy 58.42 185.42) (xy 57.15 185.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ddd281d-9dca-48dc-bc12-2349030089c6")
+		(uuid "0b884c5d-d997-414c-a447-426cebaf3dd0")
 	)
 	(wire
 		(pts
@@ -3076,6 +3221,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 142.24) (xy 59.69 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "189fd75f-8390-455f-9e69-f7f58dc1fbf9")
+	)
+	(wire
+		(pts
 			(xy 50.8 29.21) (xy 50.8 25.4)
 		)
 		(stroke
@@ -3103,6 +3258,26 @@
 			(type default)
 		)
 		(uuid "194b7217-7087-4df4-a19a-0492ff3d0868")
+	)
+	(wire
+		(pts
+			(xy 59.69 139.7) (xy 57.15 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1afc37f2-fb34-4314-bb01-f9f54db2e9c5")
+	)
+	(wire
+		(pts
+			(xy 59.69 194.31) (xy 59.69 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b2bf3a1-ccc0-4b94-bdb8-c9ac2b369e1a")
 	)
 	(wire
 		(pts
@@ -3236,6 +3411,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 59.69) (xy 72.39 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cdc0951-821b-45fe-8b7b-263a73e5fbd5")
+	)
+	(wire
+		(pts
 			(xy 20.32 26.67) (xy 20.32 33.02)
 		)
 		(stroke
@@ -3253,16 +3438,6 @@
 			(type default)
 		)
 		(uuid "2ed63d70-5e33-4db9-b957-0da757d68157")
-	)
-	(wire
-		(pts
-			(xy 59.69 97.79) (xy 55.88 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "316d977d-10f8-4a8c-af42-c20cf96fe75e")
 	)
 	(wire
 		(pts
@@ -3556,16 +3731,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 149.86) (xy 59.69 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bce598a-99a2-4113-9c84-20c8e3d56e2c")
-	)
-	(wire
-		(pts
 			(xy 34.29 36.83) (xy 45.72 36.83)
 		)
 		(stroke
@@ -3676,13 +3841,13 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 105.41) (xy 72.39 105.41)
+			(xy 50.8 95.25) (xy 48.26 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6942ba2c-6109-42a8-8845-6c6a67925353")
+		(uuid "69c4f9f6-e905-4412-be85-11104a5351ed")
 	)
 	(wire
 		(pts
@@ -3693,6 +3858,16 @@
 			(type default)
 		)
 		(uuid "6b8aed4c-4ac8-4f25-ad25-9a59cc57a76e")
+	)
+	(wire
+		(pts
+			(xy 50.8 97.79) (xy 59.69 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cdfe551-ef9c-4061-b6f9-41cf8f285ae2")
 	)
 	(wire
 		(pts
@@ -3946,6 +4121,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 195.58) (xy 59.69 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a18d17f9-a523-46d3-be3b-fd872ed3a66a")
+	)
+	(wire
+		(pts
 			(xy 106.68 45.72) (xy 110.49 45.72)
 		)
 		(stroke
@@ -3963,16 +4148,6 @@
 			(type default)
 		)
 		(uuid "a5d4c917-b2e9-435d-a595-c3198b281c36")
-	)
-	(wire
-		(pts
-			(xy 59.69 194.31) (xy 59.69 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6131391-ab93-4020-a313-3d417463326e")
 	)
 	(wire
 		(pts
@@ -4006,6 +4181,26 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 149.86) (xy 72.39 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aae77a5d-fa24-4a1a-a28d-1578b9aaa9a7")
+	)
+	(wire
+		(pts
+			(xy 57.15 52.07) (xy 57.15 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab20bf00-f88b-4b3d-a445-6ea6fbf03796")
+	)
+	(wire
+		(pts
 			(xy 119.38 24.13) (xy 132.08 24.13)
 		)
 		(stroke
@@ -4016,13 +4211,13 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 59.69) (xy 72.39 59.69)
+			(xy 59.69 186.69) (xy 58.42 186.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ade9ff13-2d4e-4bf8-8b09-4429bc055640")
+		(uuid "ad9a9103-19b8-4500-8f02-990c86a75ade")
 	)
 	(wire
 		(pts
@@ -4036,13 +4231,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 149.86) (xy 59.69 149.86)
+			(xy 58.42 186.69) (xy 58.42 185.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0acaee0-9e9f-4108-b3cb-a2ce83993d94")
+		(uuid "b1680785-4694-4368-bb1b-d6fc265f130d")
 	)
 	(wire
 		(pts
@@ -4176,13 +4371,13 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 52.07) (xy 57.15 59.69)
+			(xy 57.15 49.53) (xy 48.26 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c879604b-df45-4ea4-960f-3921f2f92608")
+		(uuid "c44c6d97-5865-4510-a110-f7f8552506ab")
 	)
 	(wire
 		(pts
@@ -4556,6 +4751,26 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 97.79) (xy 50.8 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f386bcc2-2092-4c24-8f51-abc34ede8f2d")
+	)
+	(wire
+		(pts
+			(xy 48.26 105.41) (xy 72.39 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3d70d8c-e143-43f9-a249-aad0ef8edf69")
+	)
+	(wire
+		(pts
 			(xy 139.7 168.91) (xy 139.7 175.26)
 		)
 		(stroke
@@ -4882,7 +5097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07bcacc2-b2d1-4fd2-bccb-ccdcff27357e")
-		(property "Reference" "U7"
+		(property "Reference" "U1"
 			(at 74.5841 16.51 0)
 			(effects
 				(font
@@ -5005,7 +5220,7 @@
 		(instances
 			(project ""
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "U7")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5021,7 +5236,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c3b8b48-01a2-4895-990f-523d9f320c06")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 66.294 154.686 0)
 			(effects
 				(font
@@ -5144,7 +5359,77 @@
 		(instances
 			(project "EFUSE2024"
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "U3")
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 48.26 54.61 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ddc34f1-3326-4cb2-be8f-7bad829ba5ad")
+		(property "Reference" "JP4"
+			(at 49.53 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 49.53 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
+			(at 48.26 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 48.26 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4775019b-2fb4-4b12-8d38-d80b8007b6b6")
+		)
+		(pin "1"
+			(uuid "2b2c174a-1e9a-4560-b305-f5c20b4676e6")
+		)
+		(instances
+			(project "EFUSE2024"
+				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -5299,7 +5584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27816a23-74b7-4617-9862-59519f55261f")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 154.94 145.0974 90)
 			(effects
 				(font
@@ -5353,7 +5638,7 @@
 		(instances
 			(project ""
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -5909,7 +6194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4feae111-139d-45fe-a80f-92f897ed6f77")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 154.94 98.1074 90)
 			(effects
 				(font
@@ -5963,7 +6248,7 @@
 		(instances
 			(project ""
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5987,7 +6272,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMCJ36CA"
+		(property "Value" "DIOM6859X262N"
 			(at 6.096 36.322 90)
 			(effects
 				(font
@@ -6168,7 +6453,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d356a75-21c3-4e2a-a94b-58139563ce9d")
-		(property "Reference" "RILIM4"
+		(property "Reference" "RILIM1"
 			(at 87.376 54.61 0)
 			(effects
 				(font
@@ -6222,7 +6507,7 @@
 		(instances
 			(project "EFUSE2024"
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "RILIM4")
+					(reference "RILIM1")
 					(unit 1)
 				)
 			)
@@ -6499,6 +6784,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 48.26 100.33 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87ea05ec-94f9-4c04-8356-97feaa7e2fe3")
+		(property "Reference" "JP3"
+			(at 49.53 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 49.53 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
+			(at 48.26 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 48.26 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0fd7ba84-7d2a-464b-a108-cfabf0eb083a")
+		)
+		(pin "1"
+			(uuid "b3be024d-616c-4bad-889f-0296d1430007")
+		)
+		(instances
+			(project "EFUSE2024"
+				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 87.63 101.6 0)
 		(unit 1)
@@ -6507,7 +6862,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c59b028-0667-4523-94d3-ea72b8578851")
-		(property "Reference" "RILIM1"
+		(property "Reference" "RILIM2"
 			(at 88.646 100.33 0)
 			(effects
 				(font
@@ -6561,7 +6916,7 @@
 		(instances
 			(project "EFUSE2024"
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "RILIM1")
+					(reference "RILIM2")
 					(unit 1)
 				)
 			)
@@ -6788,7 +7143,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSS138"
+		(property "Value" "SOT95P240X111-3N"
 			(at 33.274 34.036 0)
 			(effects
 				(font
@@ -6973,7 +7328,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ad2b605-c736-45d3-8594-55158a0a3f41")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 67.564 110.236 0)
 			(effects
 				(font
@@ -7096,7 +7451,7 @@
 		(instances
 			(project "EFUSE2024"
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -7112,7 +7467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3683e73-05fc-4f55-b851-1aec0ea6d3a6")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at 143.51 179.3874 90)
 			(effects
 				(font
@@ -7166,7 +7521,7 @@
 		(instances
 			(project "EFUSE2024"
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -7181,7 +7536,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4c68f1f-346b-438f-88b2-c3a96602029a")
-		(property "Reference" "RILIM2"
+		(property "Reference" "RILIM3"
 			(at 88.646 144.78 0)
 			(effects
 				(font
@@ -7235,7 +7590,7 @@
 		(instances
 			(project "EFUSE2024"
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "RILIM2")
+					(reference "RILIM3")
 					(unit 1)
 				)
 			)
@@ -7251,7 +7606,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa52b33f-84a9-4586-b61b-3858ddc2bf15")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 67.056 65.786 0)
 			(effects
 				(font
@@ -7374,7 +7729,7 @@
 		(instances
 			(project "EFUSE2024"
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -7389,7 +7744,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0c3aca4-3502-496d-8337-f71b5fae3f76")
-		(property "Reference" "R5"
+		(property "Reference" "R7"
 			(at 153.162 84.836 0)
 			(effects
 				(font
@@ -7443,7 +7798,7 @@
 		(instances
 			(project "EFUSE2024"
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7582,6 +7937,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 57.15 190.5 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2334b81-bdf3-4da2-9a3c-735977a06373")
+		(property "Reference" "JP2"
+			(at 58.42 189.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 58.42 191.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
+			(at 57.15 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 57.15 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7760c553-35bd-4cdd-a6da-1f6126ce068f")
+		)
+		(pin "1"
+			(uuid "6f88b7b3-b9df-4414-b0e6-79927164ce28")
+		)
+		(instances
+			(project "EFUSE2024"
+				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 87.63 190.5 0)
 		(unit 1)
@@ -7590,7 +8015,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4c7cf7a-8d1e-4162-9154-1cdc12d735a3")
-		(property "Reference" "RILIM3"
+		(property "Reference" "RILIM4"
 			(at 88.646 189.23 0)
 			(effects
 				(font
@@ -7644,7 +8069,7 @@
 		(instances
 			(project "EFUSE2024"
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "RILIM3")
+					(reference "RILIM4")
 					(unit 1)
 				)
 			)
@@ -7714,6 +8139,76 @@
 			(project "EFUSE2024"
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 57.15 144.78 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e270cbfa-2cea-41dc-95b9-73f387e413fa")
+		(property "Reference" "JP1"
+			(at 58.42 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 58.42 146.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
+			(at 57.15 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 57.15 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e63bd64c-7d3f-4add-8243-eaeac30f2edb")
+		)
+		(pin "1"
+			(uuid "c673f1ba-8368-4590-97f8-c2078ecd7fbd")
+		)
+		(instances
+			(project ""
+				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -7798,7 +8293,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9b0cd7d-ac1e-46f2-94f6-37761e6c62fe")
-		(property "Reference" "R7"
+		(property "Reference" "R5"
 			(at 141.732 163.576 0)
 			(effects
 				(font
@@ -7852,7 +8347,7 @@
 		(instances
 			(project "EFUSE2024"
 				(path "/c5be8a64-8a8b-4055-8c54-4d0f5ad85ba2"
-					(reference "R7")
+					(reference "R5")
 					(unit 1)
 				)
 			)
